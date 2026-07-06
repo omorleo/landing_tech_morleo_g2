@@ -1,0 +1,86 @@
+@import url('reset.css');
+
+body{
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: white; 
+    color: #270c10;
+}
+
+.contenedorPrincipal{
+    width: 800px; 
+    margin: 0 auto;
+}
+
+header{
+    position: relative;
+    background: #8338EC;
+    border-radius: 20px;
+    padding: 40px 20px 30px 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.textoBienvenida h1 {
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.textoBienvenida p {
+    font-size:20px;
+    color: #ffebee;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.categorias-grid {
+    display: grid;
+    gap: 12px;
+    width: 100%;
+}
+
+.item-cate {
+    background-color: #ffffff;
+    border: 1px solid #f1e4d3;
+    border-radius: 16px;
+    padding: 16px 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.item-cate .fa-solid {
+    font-size: 30px;
+    color: black; 
+    margin-bottom: 10px;
+}
+
+.item-cate:hover {
+    background-color: #BFCBC2;
+    border-color: #424651;
+}
+
+.item-cate span {
+    font-size: 25px;
+    font-weight: 700;
+    color: #5d4037;
+}
+
+.resto {
+    margin-top: 10px;
+    min-height: 50px;
+}
